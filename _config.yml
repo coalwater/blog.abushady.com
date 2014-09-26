@@ -10,4 +10,4 @@ markdown: rdiscount
 permalink: pretty
 highligher: true
 
-exclude: [Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, CNAME]
