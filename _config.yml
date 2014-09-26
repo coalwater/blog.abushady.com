@@ -1,0 +1,13 @@
+name: 'coalwater blog'
+description: 'my first jekyll blog'
+
+url: 'blog.abushady.com'
+
+paginate: 10
+timezone: Africa/Cairo
+
+markdown: rdiscount
+permalink: pretty
+highligher: true
+
+exclude: [Gemfile, Gemfile.lock]
