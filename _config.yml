@@ -1,13 +1,23 @@
-name: 'coalwater blog'
-description: 'my first jekyll blog'
+# Setup
+title:            'Mohammad AbuShady'
+description:      'A simple jekyll blog'
+tagline:          'Software Developer'
+url:              'blog.abushady.com'
+baseurl:          /
 
-url: 'blog.abushady.com'
-
-paginate: 10
-timezone: Africa/Cairo
+# pagination
+paginate:         5
+paginate_path:    'page:num'
 
 markdown: rdiscount
 permalink: pretty
 highligher: true
 
 exclude: [Gemfile, Gemfile.lock, CNAME]
+timezone: Africa/Cairo
+
+author:
+  name:           'Mohammad AbuShady'
+  url:            'mohammad.abushady.com'
+
+theme:        https://github.com/poole/hyde

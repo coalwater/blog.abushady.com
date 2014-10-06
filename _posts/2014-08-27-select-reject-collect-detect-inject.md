@@ -1,6 +1,6 @@
 ---
 title: Select, Reject, Collect, Detect, Inject
-layout: default
+layout: post
 ---
 I've recently learned those convenient functions that apply on any array (enumerable), all these functions take a block and according to this block's output the return is decided.
 
@@ -9,6 +9,7 @@ Selects items from the array if the block returns true
 **example** : we want to select the even numbers only
 <script src="https://gist.github.com/coalwater/4082e2609d3c03370e82.js?file=select-example.rb"></script>
 
+<!-- more -->
 ##<a name='reject'></a>[Reject](#reject)
 Same as select but rejects the items that return true from the block
 **example**: we will use the same example to reject even numbers
