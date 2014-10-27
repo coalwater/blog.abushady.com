@@ -13,7 +13,7 @@ markdown: rdiscount
 permalink: pretty
 highligher: true
 
-exclude: [Gemfile, Gemfile.lock, CNAME]
+exclude: [Gemfile, Gemfile.lock, CNAME, atlassian-ide-plugin.xml]
 timezone: Africa/Cairo
 
 author:
