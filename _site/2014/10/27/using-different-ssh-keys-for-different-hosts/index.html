@@ -92,8 +92,22 @@ you could use the <code>ssh -i</code>, but there's a better way -in my opinion a
 
 <p>After creating this you can run: <br />
 <code>ssh myVps</code>  instead of
-<code>ssh root@11.22.33.44 -P 5432</code>,<br />
+<code>ssh root@11.22.33.44 -P 5432</code><br />
 Also keep in mind that you can use in all ssh related commands, like scp for example  <code>scp myVps:/home/user/file ~/Downloads</code>  will also work</p>
+
+<p>You can add as much hosts as you could, each with whatever name you want</p>
+
+<script src="https://gist.github.com/coalwater/e8bf9cc9acf65d6e656d.js?file=multiple-hosts.config"></script>
+
+
+<p>when you run any ssh command it will read the config from the config file and connect to it, not only by name, but if your config partially
+match any config in the file, the connection would use the remaining config from the file</p>
+
+<p>Using the last config file, all these connections will work:<br />
+<code>ssh vps1</code>,<br />
+<code>ssh 11.22.33.44</code>,<br />
+<code>ssh vpsuser@12.34.56.78</code>,<br />
+<code>ssh vpsuser -p22</code></p>
 
 </div>
 
