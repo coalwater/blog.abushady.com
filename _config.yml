@@ -21,3 +21,6 @@ author:
   url:            'mohammad.abushady.com'
 
 theme:        https://github.com/poole/hyde
+
+disqus:
+  shortname: 'coalwater'
