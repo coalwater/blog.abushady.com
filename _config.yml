@@ -2,7 +2,7 @@
 title:            'Mohammad AbuShady'
 description:      'A simple jekyll blog'
 tagline:          'Software Developer'
-url:              'blog.abushady.com'
+url:              'http://blog.abushady.com'
 baseurl:          /
 
 # pagination
