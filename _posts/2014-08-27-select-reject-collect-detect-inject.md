@@ -2,6 +2,7 @@
 title: Select, Reject, Collect, Detect, Inject
 layout: post
 ident: select-reject-collect-detect-inject
+published: true
 ---
 I've recently learned those convenient functions that apply on any array (enumerable), all these functions take a block and according to this block's output the return is decided.
 

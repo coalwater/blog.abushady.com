@@ -2,6 +2,7 @@
 title: Routing all dev domains to localhost
 layout: post
 ident: dnsmasq-for-local-domains
+published: true
 ---
 When developing locally, you might find your self that you often need to route
 some domain to localhost, for example `my-amazing-website.dev`  
