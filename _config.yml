@@ -1,6 +1,7 @@
 # Setup
 title:            'Mohammad AbuShady'
-description:      'A simple jekyll blog'
+description:      A software developer, mainly using ruby/rails,
+                  using this blog to write about every thing i found useful
 tagline:          'Software Developer'
 url:              'http://blog.abushady.com'
 baseurl:          /
@@ -21,6 +22,17 @@ author:
   url:            'mohammad.abushady.com'
 
 theme:        https://github.com/poole/hyde
+
+links:
+  - name: Github
+    url: http://url.abushady.com/github
+    icon: 'fa fa-github'
+  - name: StackOverflow
+    url: http://url.abushady.com/stackoverflow
+    icon: 'fa fa-stack-overflow'
+  - name: LinkedIn
+    url: http://url.abushady.com/linkedin
+    icon: 'fa fa-linkedin'
 
 disqus:
   shortname: 'coalwater'
