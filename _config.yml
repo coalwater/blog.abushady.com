@@ -6,6 +6,8 @@ tagline:          'Software Developer'
 url:              'http://blog.abushady.com'
 baseurl:          /
 
+repo_url:         https://github.com/coalwater/blog.abushady.com
+
 # pagination
 paginate:         5
 paginate_path:    'page:num'
