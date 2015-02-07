@@ -8,6 +8,14 @@
             </h1>
 
             <p class="lead">{{ site.description }}</p>
+            <section class='lead links'>
+              <h2>Online profiles</h2>
+                <ul>
+                  {% for link in site.links %}
+                    <li><a href='{{ link.url }}'><i class='{{link.icon}}' target='_blank'></i> {{link.name}}</a></li>
+                  {% endfor %}
+                </ul>
+            </section>
         </div>
 
         <nav class="sidebar-nav">
