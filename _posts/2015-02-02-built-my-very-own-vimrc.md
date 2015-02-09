@@ -4,10 +4,10 @@ layout: post
 published: true
 ident: built-my-own-vimrc
 ---
-I've been writing using IDE's since a long time, since I started using linux about 5 years ago, I thought that people
-who use vim are some crazy people who like to do things the hard way, until one day I decided to read about vim,
+I've been writing using IDE's since a long time, when I started using linux about 5 years ago, I thought people
+who use vim are some crazy people who like to do things the hard way, until one day I decided to read about vim myself,
 <!-- more -->
-so I looked around and I found a very good book called [a byte of vim][byte-of-vim-link] I recommnd it for anyone
+so I looked around and I found a very good book called [a byte of vim][byte-of-vim-link] I recommend it for anyone
 who's interested in learning vim, it's free for downloading.  
 Anyways since I've read that book I understood why people use it, but I really love IDE's, so I always look for a vim
 plugin for all editors I use, like in netbean's jvi and rubymine's ideavim, it's fun, you get the best of the two worlds
