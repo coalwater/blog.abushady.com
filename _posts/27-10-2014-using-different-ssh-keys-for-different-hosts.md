@@ -11,9 +11,9 @@ you can create `~/.ssh/config` with the following format
 {% gist e8bf9cc9acf65d6e656d sample-format.config %}
 They don't have to be in any specific order, and any key can be ignored, here's an example after substituting
 {% gist e8bf9cc9acf65d6e656d sample-file.config %}
-After creating this you can run: <br />
+After creating this you can run:  
 `ssh myVps`  instead of
-`ssh root@11.22.33.44 -P 5432`<br />
+`ssh root@11.22.33.44 -P 5432`  
 Also keep in mind that you can use in all ssh related commands, like scp for example  `scp myVps:/home/user/file ~/Downloads`  will also work
 
 You can add as much hosts as you could, each with whatever name you want
@@ -21,8 +21,8 @@ You can add as much hosts as you could, each with whatever name you want
 when you run any ssh command it will read the config from the config file and connect to it, not only by name, but if your config partially
 match any config in the file, the connection would use the remaining config from the file
 
-Using the last config file, all these connections will work:<br />
-`ssh vps1`,<br />
-`ssh 11.22.33.44`,<br />
-`ssh vpsuser@12.34.56.78`,<br />
+Using the last config file, all these connections will work:  
+`ssh vps1`,  
+`ssh 11.22.33.44`,  
+`ssh vpsuser@12.34.56.78`,  
 `ssh vpsuser -p22`
