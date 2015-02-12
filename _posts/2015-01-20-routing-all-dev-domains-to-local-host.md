@@ -17,15 +17,15 @@ domains, so i found it easy to just apply a regex on all domains that end with
 the `.dev` suffix.
 
 First let's install dnsmasq, for ubuntu/debian you can simply use `apt-get`
-<script src="https://gist.github.com/coalwater/20dd4ca27dd34e0811ec.js?file=install-dnsmasq"></script>
+{% gist 20dd4ca27dd34e0811ec install-dnsmasq %}
 Then edit the conf file `/etc/dnsmasq.conf` and add this line
-<script src="https://gist.github.com/coalwater/20dd4ca27dd34e0811ec.js?file=dnsmasq.conf"></script>
+{% gist 20dd4ca27dd34e0811ec dnsmasq.conf %}
 The remaining would be adding the localhost as a dns resolver, the easiest way
 would be adding it manually in the network manager, but to keep it dynamic and
 not affected by your own network manager settings you can use something like the
 `resolvconf` package, first we install it
-<script src="https://gist.github.com/coalwater/20dd4ca27dd34e0811ec.js?file=install-resolvconf"></script>
+{% gist 20dd4ca27dd34e0811ec install-resolvconf %}
 Then we edit the base file `/etc/resolvconf/resolv.conf.d/base` and add this
 simple line
-<script src="https://gist.github.com/coalwater/20dd4ca27dd34e0811ec.js?file=resolveconf.base"></script>
+{% gist 20dd4ca27dd34e0811ec resolvconf.base %}
 
