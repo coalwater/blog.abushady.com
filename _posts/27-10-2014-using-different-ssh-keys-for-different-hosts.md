@@ -25,4 +25,4 @@ Using the last config file, all these connections will work:
 `ssh vps1`,  
 `ssh 11.22.33.44`,  
 `ssh vpsuser@12.34.56.78`,  
-`ssh vpsuser -p22`
+`ssh vps1 -p22`
