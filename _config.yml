@@ -9,6 +9,8 @@ baseurl:          /
 
 repo_url:         https://github.com/coalwater/blog.abushady.com
 
+read_more:        'Continue reading'
+
 # pagination
 paginate:         5
 paginate_path:    'page:num'

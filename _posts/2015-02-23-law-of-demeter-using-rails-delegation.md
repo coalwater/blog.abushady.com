@@ -8,8 +8,10 @@ ident: law-of-demeter-using-rails-delegation
 The [law of demeter][law-of-demeter-wikipedia] simply states that objects should
 only talk to them selves or objects directly associated to them selves, because
 otherwise this is considered a dependency and would reduce maintainability and
-cause tight coupling between objects, <!-- more -->this rule can often be
-ignored if the objects are of the same type, but more about that later.
+cause tight coupling between objects.
+<!-- more -->
+This rule can often be ignored if the objects are of the same type, but more
+about that later.
 
 Here's some violations of the law of demeter:
 {% gist 3584ed4bf2a15a88c3ee law_of_demeter_violation.rb %}

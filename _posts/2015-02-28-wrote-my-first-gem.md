@@ -6,7 +6,9 @@ ident: wrote-my-first-gem
 ---
 I was helping a fellow developer on his rails project, and I found something
 interesting in his code, it was a query on how to find if two date intervals are
-intersecting or not,<!-- more --> we've already done something similar at work and it
+intersecting or not.
+<!-- more -->
+we've already done something similar at work and it
 required a big query to test, so I thought, maybe I should turn this into a gem
 and then we could use it in this project, and in any future projects.
 

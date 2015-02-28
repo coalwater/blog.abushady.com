@@ -16,7 +16,7 @@ title: Home
 
         {% if post.content contains "<!-- more -->" %}
             {{ post.content | split:"<!-- more -->" | first % }}
-            <a href="{{post.url}}">Read more -></a><hr />
+            <a href="{{post.url}}">{{ site.read_more }}</a><hr />
         {% else %}
         {{ post.content }}
         {% endif %}
