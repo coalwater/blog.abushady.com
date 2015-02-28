@@ -1,0 +1,32 @@
+.sidebar h2 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.sidebar h2 {
+  color: white;
+}
+
+.sidebar ul.links li {
+  list-style: none;
+}
+
+.forkme {
+ position: absolute;
+ right: 0;
+ border: 0;
+ z-index: 10;
+ display: none;
+}
+
+@media (min-width: 26em) {
+  .forkme {
+    display: block;
+  }
+}
+@media (min-width: 38em) {
+  .forkme {
+    top: 72px;
+  }
+}

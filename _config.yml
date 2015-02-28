@@ -1,7 +1,8 @@
 # Setup
 title:            'Mohammad AbuShady'
-description:      A software developer, mainly using ruby/rails,
-                  using this blog to write about every thing i found useful
+description:      I'm a software developer, mainly using ruby/rails, using this
+                  blog to write about using this blog to write about my
+                  experiencnes and every thing i find useful.
 tagline:          'Software Developer'
 url:              'http://blog.abushady.com'
 baseurl:          /
@@ -23,7 +24,9 @@ author:
   name:           'Mohammad AbuShady'
   url:            'mohammad.abushady.com'
 
-theme:        https://github.com/poole/hyde
+theme:
+  repo:           https://github.com/poole/lanyon
+  name:           lanyon
 
 links:
   - name: Github
