@@ -1,5 +1,5 @@
 ---
-title: Writing my first ruby gem experience
+title: Wrote my first ruby gem
 layout: post
 published: true
 ident: wrote-my-first-gem

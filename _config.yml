@@ -1,8 +1,8 @@
 # Setup
 title:            'Mohammad AbuShady'
 description:      I'm a software developer, mainly using ruby/rails, using this
-                  blog to write about using this blog to write about my
-                  experiencnes and every thing i find useful.
+                  blog to write about my experiencnes and every thing i find
+                  useful.
 tagline:          'Software Developer'
 url:              'http://blog.abushady.com'
 baseurl:          /
