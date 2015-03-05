@@ -7,7 +7,7 @@ layout: null
 
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
+ <link href="{{ site.url }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}</id>
  <author>
@@ -18,10 +18,18 @@ layout: null
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
+   <link href="{{ site.url }}{{ post.url }}?ref=rss"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">
+    {% if post.content contains "<!-- more -->" %}
+      {{ post.content | split:"<!-- more -->" | first | xml_escape }}
+      {{ "<a href='" | xml_escape }}{{post.url}}{{"?ref=rss'>" | xml_escape }}{{site.read_more}}{{"</a><hr />" | xml_escape}}
+    {% else %}
+      {{ post.content | xml_escape }}
+    {% endif %}
+
+  </content>
  </entry>
  {% endfor %}
 
