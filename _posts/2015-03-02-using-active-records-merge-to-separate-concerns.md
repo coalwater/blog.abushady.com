@@ -18,7 +18,7 @@ that says which dvds were returned and which were not.
 To find users that have un returned dvds, we could create a scope like this
 {% gist 5a6bb89670424b63c6fd user_scope.rb %}
 This scope has a problem, the thing is that the `User` class knows the name of
-the field (`returned`), and the value it wants it to be (`true`), if for any
+the field (`returned`), and the value it wants it to be (`false`), if for any
 reason we decided to split the rentals into a separate table, or change the
 field's name or value we need to modify this method too, which resides in the
 `User` class, it should not have that dependency.
