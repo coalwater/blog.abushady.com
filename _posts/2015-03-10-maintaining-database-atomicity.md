@@ -44,10 +44,8 @@ automatically, and nothing will be persisted.
 
   - You could fire the rollback your self if you raise inside the block, you
     could raise a rollback error
+    {% gist 4fe828c7221c8c327219 manual_rollback.rb %}
 
-        ActiveRecord::Base.transaction do
-          raise AcitveRecord::Rollback if something_bad_happens
-        end
 
   - Transactions could be nested, but needs a little tweaking to make it work as
     expected, you can read about the [details here][nested-transactions]
