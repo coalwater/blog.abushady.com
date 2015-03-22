@@ -3,6 +3,7 @@ title: Routing all dev domains to localhost
 layout: post
 ident: dnsmasq-for-local-domains
 published: true
+gist_id: 20dd4ca27dd34e0811ec
 ---
 When developing locally, you might find your self that you often need to route
 some domain to localhost, for example `my-amazing-website.dev`  
@@ -17,15 +18,15 @@ domains, so i found it easy to just apply a regex on all domains that end with
 the `.dev` suffix.
 
 First let's install dnsmasq, for ubuntu/debian you can simply use `apt-get`
-{% gist 20dd4ca27dd34e0811ec install-dnsmasq %}
+{% gist {{page.gist_id}} install-dnsmasq %}
 Then edit the conf file `/etc/dnsmasq.conf` and add this line
-{% gist 20dd4ca27dd34e0811ec dnsmasq.conf %}
+{% gist {{page.gist_id}} dnsmasq.conf %}
 The remaining would be adding the localhost as a dns resolver, the easiest way
 would be adding it manually in the network manager, but to keep it dynamic and
 not affected by your own network manager settings you can use something like the
 `resolvconf` package, first we install it
-{% gist 20dd4ca27dd34e0811ec install-resolvconf %}
+{% gist {{page.gist_id}} install-resolvconf %}
 Then we edit the base file `/etc/resolvconf/resolv.conf.d/base` and add this
 simple line
-{% gist 20dd4ca27dd34e0811ec resolvconf.base %}
+{% gist {{page.gist_id}} resolvconf.base %}
 

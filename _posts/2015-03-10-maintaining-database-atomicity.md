@@ -3,8 +3,8 @@ title: Maintaining database atomicity using ActiveRecord transactions
 layout: post
 published: true
 ident: maintining-database-atomicity
+gist_id: 4fe828c7221c8c327219
 ---
-{%capture gist_id%}{{post.gist_id}}{%endcapture%}
 [Atomicity][atomicity-wiki] comes from the greek word 'a-tomos' which means
 undevidable, atomic database transactions means that we want either all the
 database operations to happen together, or none of them at all, which means that
@@ -20,7 +20,7 @@ release the reserved item and undo any orders that was placed.
 
 Here's a sample (maybe unrealistic) implementation of a ecommerce website, but
 let it pass for the sake of the example
-{% gist 4fe828c7221c8c327219 place_order_without_transaction.rb %}
+{% gist {{page.gist_id}} place_order_without_transaction.rb %}
 Suppose the item was reserved successfully, but there was an error in the order
 creation, or maybe the order was created but there's an error in the invoice, we
 would want to undo all these changes that we done, and maybe any changes that
@@ -36,7 +36,7 @@ too for simplicity.
 
 To protect the `place_order` method we created, we could wrap the statements
 inside it inside a transaction
-{% gist 4fe828c7221c8c327219 place_order_with_transaction.rb %}
+{% gist {{page.gist_id}} place_order_with_transaction.rb %}
 This way if something went wrong `ActiveRecord` will rollback the changes
 automatically, and nothing will be persisted.
 
@@ -44,7 +44,7 @@ automatically, and nothing will be persisted.
 
   - You could fire the rollback your self if you raise inside the block, you
     could raise a rollback error
-    {% gist 4fe828c7221c8c327219 manual_rollback.rb %}
+    {% gist {{page.gist_id}} manual_rollback.rb %}
 
 
   - Transactions could be nested, but needs a little tweaking to make it work as
@@ -52,7 +52,7 @@ automatically, and nothing will be persisted.
 
   - Transactions are just like any other block, it would return the last executed
     statement, could be used to return to an outer variable
-      {% gist 4fe828c7221c8c327219 transaction_block_with_return.rb %}
+      {% gist {{page.gist_id}} transaction_block_with_return.rb %}
     This way object will end up being the last array we created
 
 
