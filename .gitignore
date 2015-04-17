@@ -1,3 +1,6 @@
+Gemfile
+Gemfile.lock
+.ruby-version
 /atlassian-ide-plugin.xml
 /.idea
 /_site
