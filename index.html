@@ -5,16 +5,16 @@ title: Home
 
 <div class="posts">
     {% for post in paginator.posts %}
-    <div class="post">
+    <div itemscope itemtype="http://schema.org/Article" class="post">
         <h1 class="post-title">
-            <a href="{{ post.url }}">
-                {{ post.title }}
+            <a itemprop="url" href="{{ post.url }}">
+              <span itemprop="name">{{ post.title }}</span>
             </a>
         </h1>
 
-        <span class="post-date">{{ post.date | date_to_string }}</span>
+        <span temprop="datePublished" content="{{post.date}}" class="post-date">{{ post.date | date_to_string }}</span>
 
-        {{ post.excerpt }}
+        <span itemprop='headline'>{{ post.excerpt }}</span>
         {% if post.excerpt != post.content %}
           <a href="{{post.url}}">{{ site.read_more }}</a><hr />
         {% endif %}
