@@ -27,6 +27,7 @@ timezone: Africa/Cairo
 author:
   name:           'Mohammad AbuShady'
   url:            'mohammad.abushady.com'
+  email:          'blog@abushady.com'
 
 theme:
   repo:           https://github.com/poole/lanyon
