@@ -26,7 +26,7 @@ timezone: Africa/Cairo
 
 author:
   name:           'Mohammad AbuShady'
-  url:            'mohammad.abushady.com'
+  url:            'https://github.com/coalwater/'
   email:          'blog@abushady.com'
 
 theme:
