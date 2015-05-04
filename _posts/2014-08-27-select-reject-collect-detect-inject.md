@@ -9,14 +9,13 @@ just basically any enumerable, all these functions take a block and according
 to this block's output the return is decided, those methods are select, reject,
 collect, detect, inject.
 
-<!--more-->
+<!-- more -->
 
 ##<a name='select'></a>[Select](#select)
 Selects items from the array if the block returns true
 **example** : we want to select the even numbers only
 {% gist 4082e2609d3c03370e82 select-example.rb %}
 
-<!-- more -->
 ##<a name='reject'></a>[Reject](#reject)
 Same as select but rejects the items that return true from the block
 **example**: we will use the same example to reject even numbers
