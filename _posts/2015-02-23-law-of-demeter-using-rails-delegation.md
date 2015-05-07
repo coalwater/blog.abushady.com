@@ -3,6 +3,10 @@ title: Law of demeter and rails delegation
 layout: post
 published: true
 ident: law-of-demeter-using-rails-delegation
+tags:
+  - Rails
+  - ActiveRecord
+  - Best practices
 ---
 ## Defining law of demeter
 The [law of demeter][law-of-demeter-wikipedia] simply states that objects should

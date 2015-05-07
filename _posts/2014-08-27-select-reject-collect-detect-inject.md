@@ -3,6 +3,8 @@ title: Select, Reject, Collect, Detect, Inject
 layout: post
 ident: select-reject-collect-detect-inject
 published: true
+tags:
+  - Ruby
 ---
 I've recently learned those convenient functions that apply on any array, or
 just basically any enumerable, all these functions take a block and according

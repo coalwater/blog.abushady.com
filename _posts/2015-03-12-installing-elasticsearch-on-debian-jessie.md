@@ -4,6 +4,9 @@ layout: post
 ident: installing-elasticsearch-on-debian-jessie
 date: 2015-03-12
 published: true
+tags:
+  - ElasticSearch
+  - Debian
 ---
 Recently I needed to install elasticsearch on my debian jessie laptop, first I
 found it in the repos so I installed it normally, it installed a bunch of stuff

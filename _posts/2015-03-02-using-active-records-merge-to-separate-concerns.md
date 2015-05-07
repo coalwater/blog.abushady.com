@@ -3,6 +3,10 @@ title: Using active record's &#35;merge to separate concerns
 layout: post
 published: true
 ident: using-active-records-merge-to-separate-concerns
+tags:
+  - Rails
+  - ActiveRecord
+  - Querying
 ---
 We've all written this kind of code at some point of our lives, a query that
 requires a join, and adding a condition to the joined table to limit the

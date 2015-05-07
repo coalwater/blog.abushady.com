@@ -3,6 +3,9 @@ title: Using rails low level caching
 layout: post
 ident: using-rails-low-level-caching
 published: true
+tags:
+  - Rails
+  - Caching
 ---
 Some times we find our selves having a time expensive method or in some cases
 using an API that costs money per request, or a slow one, I had that issue once

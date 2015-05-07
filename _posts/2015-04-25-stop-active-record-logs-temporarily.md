@@ -3,6 +3,10 @@ title: How to stop ActiveRecord logs temporarily in heavy queries
 layout: post
 ident: stop-active-record-logs-temporarily
 published: true
+tags:
+  - Rails
+  - Logs
+  - ActiveRecord
 ---
 When I'm writing a heavy query rake task or just running something in the
 console that does a lot of updates, and i want to output something it gets lost

@@ -3,6 +3,8 @@ title: Wrote my first ruby gem
 layout: post
 published: true
 ident: wrote-my-first-gem
+tags:
+  - Gems
 ---
 I was helping a fellow developer on his rails project, and I found something
 interesting in his code, it was a query on how to find if two date intervals are

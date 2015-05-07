@@ -3,6 +3,8 @@ title: Built my very own vimrc from scratch
 layout: post
 published: true
 ident: built-my-own-vimrc
+tags:
+  - Offtopic
 ---
 I've been writing using IDE's since a long time, when I started using linux about 5 years ago, I thought people
 who use vim are some crazy people who like to do things the hard way, until one day I decided to read about vim myself,

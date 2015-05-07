@@ -4,9 +4,9 @@ layout: post
 ident: rails-console-tips-and-tricks
 published: true
 tags:
-  - tips and tricks
-  - rails
-  - console
+  - Rails
+  - Console
+  - Tips and Tricks
 ---
 Any rails developer probably uses rails console every day, when testing methods,
 when debugging, or doing some database modifications, knowing some convenient

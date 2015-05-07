@@ -3,6 +3,10 @@ title: Using different ssh keys for different hosts
 layout: post
 published: true
 ident: different-ssh-keys-for-different-hosts
+tags:
+  - Linux
+  - SSH
+  - Tips and Tricks
 ---
 By default the SSH private key is given the name `id_rsa`  or `id_dsa` and if you try to use a different key and give it another name it wont be detected by SSH command,
 you could use the `ssh -i`, but there's a better way -in my opinion at least- to do that

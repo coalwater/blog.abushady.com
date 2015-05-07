@@ -3,6 +3,9 @@ title: Maintaining database atomicity using ActiveRecord transactions
 layout: post
 published: true
 ident: maintining-database-atomicity
+tags:
+  - Rails
+  - ActiveRecord
 ---
 {%capture gist_id%}{{post.gist_id}}{%endcapture%}
 [Atomicity][atomicity-wiki] comes from the greek word 'a-tomos' which means

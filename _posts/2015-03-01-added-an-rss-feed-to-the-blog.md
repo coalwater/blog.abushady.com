@@ -3,6 +3,8 @@ title: Added an RSS feed for the blog
 layout: post
 published: true
 ident: added-an-rss-feed-for-the-blog
+tags:
+  - Offtopic
 ---
 I've added an RSS feed for the blog to make it easier for people who are reading
 this blog - if any - be able to keep track of my posts and find out when the new
