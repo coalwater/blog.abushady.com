@@ -3,7 +3,15 @@ layout: default
 ---
 <div itemscope itemtype='http://schema.org/Article' class='post'>
   <h1 itemprop='name' class="post-title">{{ page.title }}</h1>
-  <span itemprop='datePublished' content='{{page.date}}' class='post-date'>{{ page.date | date_to_string }}</span>
+  <div class='post-date'>
+    <span itemprop='datePublished' content='{{page.date}}' class=''>{{ page.date | date_to_string }}</span>
+    &middot;
+    {% if page.author %}
+      <span><a itemprop='author' href='{{page.author.url}}' rel='author' target='_blank'>{{ page.author.name }}</a></span>
+    {% else %}
+      <span><a itemprop='author' href='{{site.author.url}}' rel='author' target='_blank'>{{ site.author.name }}</a></span>
+    {% endif %}
+  </div>
   {% if page.tags %}
     <span class='post-date'>
       {% for tag in page.tags %}
