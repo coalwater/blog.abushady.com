@@ -16,7 +16,7 @@
     <meta name="description" content="{{ page.excerpt | strip_html }}">
   {% endif %}
   {% if page.tags %}
-    <meta name="keywords" content="{{page.tags | join: ', ' }}">
+    <meta name="keywords" content="{{page.tags | join: ', ' | downcase }}">
   {% endif %}
 
   <!-- CSS -->
