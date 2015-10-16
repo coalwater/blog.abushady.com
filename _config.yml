@@ -35,13 +35,13 @@ theme:
 
 links:
   - name: Github
-    url: http://url.abushady.com/github
+    url: https://github.com/coalwater
     icon: 'fa fa-github'
   - name: StackOverflow
-    url: http://url.abushady.com/stackoverflow
+    url: http://stackoverflow.com/users/2149092/mohammad-abushady
     icon: 'fa fa-stack-overflow'
   - name: LinkedIn
-    url: http://url.abushady.com/linkedin
+    url: https://www.linkedin.com/in/mohammadabushady
     icon: 'fa fa-linkedin'
 
 disqus:
