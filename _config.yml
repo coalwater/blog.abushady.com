@@ -17,7 +17,7 @@ paginate_path:    'page:num'
 
 excerpt_separator: <!-- more -->
 
-markdown: rdiscount
+markdown: kramdown
 permalink: date
 highligher: true
 
@@ -29,7 +29,7 @@ author:
   url:            'https://github.com/coalwater/'
   email:          'blog@abushady.com'
 
-theme:
+my_theme:
   repo:           https://github.com/poole/lanyon
   name:           lanyon
 
@@ -43,6 +43,10 @@ links:
   - name: LinkedIn
     url: https://www.linkedin.com/in/mohammadabushady
     icon: 'fa fa-linkedin'
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
 disqus:
   shortname: 'coalwater'

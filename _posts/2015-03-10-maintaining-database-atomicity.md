@@ -7,7 +7,6 @@ tags:
   - Rails
   - ActiveRecord
 ---
-{%capture gist_id%}{{post.gist_id}}{%endcapture%}
 [Atomicity][atomicity-wiki] comes from the greek word 'a-tomos' which means
 undevidable, atomic database transactions means that we want either all the
 database operations to happen together, or none of them at all, which means that
@@ -60,5 +59,5 @@ automatically, and nothing will be persisted.
 
 
 
-[atomicity-wiki]: https://en.wikipedia.org/wiki/Atomicity_%28database_systems%29
+[atomicity-wiki]: https://en.wikipedia.org/wiki/Atomicity_%28database_systems
 [nested-transactions]: http://api.rubyonrails.org/classes/ActiveRecord/Transactions/ClassMethods.html
