@@ -11,7 +11,7 @@
       <h2>Online profiles</h2>
       <ul class='links'>
         {% for link in site.links %}
-          <li><a href='{{ link.url }}' rel='nofollow'><i class='{{link.icon}}' target='_blank'></i> {{link.name}}</a></li>
+          <li><a href='{{ link.url }}' rel='nofollow' target='_blank'><i class='{{link.icon}}'></i> {{link.name}}</a></li>
         {% endfor %}
       </ul>
   </div>
