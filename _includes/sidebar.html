@@ -17,6 +17,7 @@
   </div>
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+    <a class="sidebar-nav-item{% if page.url == '/about-me/' %} active{% endif %}" href="{{ site.baseurl | append: 'about-me/' }}">About me</a>
     <a class="sidebar-nav-item" href="mailto:blog@abushady.com">Contact me</a>
 
     {% assign pages_list = site.pages | sort:"url" %}

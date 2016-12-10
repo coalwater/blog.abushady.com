@@ -44,6 +44,20 @@ links:
     url: https://www.linkedin.com/in/mohammadabushady
     icon: 'fa fa-linkedin'
 
+about_me_footer_links:
+  - name: Github
+    url: https://github.com/coalwater
+    icon: 'fa fa-github'
+  - name: StackOverflow
+    url: http://stackoverflow.com/users/2149092/mohammad-abushady
+    icon: 'fa fa-stack-overflow'
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/mohammadabushady
+    icon: 'fa fa-linkedin'
+  - name: Dot files
+    url: https://github.com/coalwater/dotfiles
+    icon: 'fa fa-file-text-o'
+
 gems:
   - jekyll-paginate
   - jekyll-gist

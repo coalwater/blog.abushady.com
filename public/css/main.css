@@ -43,3 +43,13 @@
   border-radius: .25em;
   background-color:  #8f5536;
 }
+
+table.no-border tr td {
+  background-color: white;
+}
+
+.no-border th {
+  background-color: #f9f9f9;
+  text-align: left;
+  border: none;
+}
