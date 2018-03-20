@@ -43,6 +43,9 @@ links:
   - name: LinkedIn
     url: https://www.linkedin.com/in/mohammadabushady
     icon: 'fab fa-linkedin-in'
+  - name: Hire me
+    url: https://www.upwork.com/freelancers/~017d64b3de125aeff1
+    icon: 'fas fa-briefcase'
 
 about_me_footer_links:
   - name: Github
@@ -57,6 +60,9 @@ about_me_footer_links:
   - name: Dot files
     url: https://github.com/coalwater/dotfiles
     icon: 'fas fa-file-code'
+  - name: Hire me
+    url: https://www.upwork.com/freelancers/~017d64b3de125aeff1
+    icon: 'fas fa-briefcase'
 
 gems:
   - jekyll-paginate
