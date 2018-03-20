@@ -57,6 +57,9 @@ about_me_footer_links:
   - name: Dot files
     url: https://github.com/coalwater/dotfiles
     icon: 'fa fa-file-text-o'
+  - name: Hire me
+    url: https://www.upwork.com/freelancers/~017d64b3de125aeff1
+    icon: 'fas fa-briefcase'
 
 gems:
   - jekyll-paginate
